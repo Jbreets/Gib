@@ -70,18 +70,18 @@ export default function ItinerarySlideshow({ onBack }) {
       {isNight ? (
           <div className="starfield"></div>
         ) : (
-          <div className="sunburst-svg absolute inset-0 z-0 pointer-events-none">
-            <svg
-              width="100%"
-              height="100%"
-              viewBox="0 0 200 200"
-              preserveAspectRatio="xMidYMid slice"
-              className="animate-spin-slow"
-            >
+          <div className="sunburst-svg absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-[100vmin] h-[100vmin] z-0 pointer-events-none">
+          <svg
+            width="100%"
+            height="100%"
+            viewBox="0 0 200 200"
+            preserveAspectRatio="xMidYMid meet"
+            className="animate-spin-slow"
+          >
               <defs>
                 <radialGradient id="sunGrad" r="80%">
                   <stop offset="0%" stopColor="#FFD580" stopOpacity="0.4" />
-                  <stop offset="100%" stopColor="#FFD580" stopOpacity="0" />
+                  <stop offset="100%" stopColor="#FFD580" stopOpacity="0.2" />
                 </radialGradient>
               </defs>
               <circle cx="100" cy="100" r="80" fill="url(#sunGrad)" />
@@ -97,7 +97,7 @@ export default function ItinerarySlideshow({ onBack }) {
                     stroke="#FFD580"
                     strokeWidth="1"
                     transform={`rotate(${angle} 100 100)`}
-                    strokeOpacity="0.4"
+                    strokeOpacity="0.6"
                   />
                 );
               })}
