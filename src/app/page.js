@@ -15,10 +15,10 @@ export default function HomePage() {
   ) : (
     <div className="min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-orange-300 via-pink-400 to-purple-600 px-6">
       <h1 className="text-5xl md:text-6xl font-bold mb-4 text-center drop-shadow-lg">
-        Welcome to Jack and Leah's Gibraltar Getaway 💕🌅
+        Welcome to Jack and Leah&apos;s Gibraltar Getaway 💕🌅
       </h1>
       <p className="text-xl md:text-2xl mb-8 text-center max-w-2xl">
-      Since you did your little powerpoint I thought I'd create a little one myself
+        Since you did your little powerpoint I thought I&apos;d create a little one myself
       </p>
       <button
         onClick={() => setStarted(true)}
