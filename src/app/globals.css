@@ -143,3 +143,19 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120vh) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.heart {
+  animation-name: float;
+  animation-timing-function: ease-in;
+}
