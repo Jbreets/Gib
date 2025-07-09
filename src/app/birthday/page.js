@@ -46,7 +46,7 @@ export default function BirthdayCard() {
           🎂 Happy Birthday Leah! 🎉
         </h1>
         <p className="text-lg text-purple-700 mb-6">
-          Here's a little memory wall for you — just a few of my favorite moments with you 💕
+          Here&apos;s a little memory wall for you — just a few of my favorite moments with you 💕
         </p>
 
         {/* 📸 Photo Grid */}
@@ -68,7 +68,7 @@ export default function BirthdayCard() {
         </div>
 
         <p className="mt-8 text-md text-gray-600">
-          Love you lots — here's to many more memories, laughs, sunsets and late-night snacks 💗 From Eggyboff
+        Love you lots — here&apos;s to many more memories, laughs, sunsets and late-night snacks 💗 From Eggyboff
         </p>
       </div>
     </div>
