@@ -4,18 +4,15 @@ import Image from "next/image";
 import "../globals.css";
 
 const photos = [
-  "/images/photo1.jpg",
-  "/images/photo2.jpg",
-  "/images/photo3.jpg",
-  "/images/photo4.jpg",
-  "/images/photo5.jpg",
-  "/images/photo6.jpg",
-  "/images/photo7.jpg",
-  "/images/photo8.jpg",
-  "/images/photo9.jpg",
-  "/images/video1.jpg",
-  "/images/video2.jpg",
-  "/images/video3.jpg",
+  "/images/image0.jpeg",
+  "/images/image1.jpeg",
+  "/images/image2.jpeg",
+  "/images/image3.jpeg",
+  "/images/image4.jpeg",
+  "/images/image5.jpeg",
+  "/images/image6.jpeg",
+  "/images/image7.jpeg",
+  "/images/image8.jpeg"
 ];
 
 export default function BirthdayCard() {
@@ -46,7 +43,7 @@ export default function BirthdayCard() {
           🎂 Happy Birthday Leah! 🎉
         </h1>
         <p className="text-lg text-purple-700 mb-6">
-          Here&apos;s a little memory wall for you — just a few of my favorite moments with you 💕
+          Here&apos;s a little memory wall for you that you can see at all times, just a few of my favorite moments with you 💕
         </p>
 
         {/* 📸 Photo Grid */}
@@ -68,7 +65,7 @@ export default function BirthdayCard() {
         </div>
 
         <p className="mt-8 text-md text-gray-600">
-        Love you lots — here&apos;s to many more memories, laughs, sunsets and late-night snacks 💗 From Eggyboff
+        Love you lots — here&apos;s to many more memories, laughs, sunsets, drinks and nice meals, Love you the most 💗 From Eggyboff
         </p>
       </div>
     </div>
